@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/137549128759559315/b31a3d635c104dfeae79a3039b29b22a/artifacts
+end_time: 1747548286730
+entry_point_name: ''
+experiment_id: '137549128759559315'
+lifecycle_stage: active
+run_id: b31a3d635c104dfeae79a3039b29b22a
+run_name: unleashed-colt-450
+run_uuid: b31a3d635c104dfeae79a3039b29b22a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1747548285838
+status: 3
+tags: []
+user_id: abhis

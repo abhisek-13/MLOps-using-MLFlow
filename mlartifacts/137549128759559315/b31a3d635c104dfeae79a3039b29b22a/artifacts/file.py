@@ -15,8 +15,8 @@ y = wine.target
 
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
 
-max_depth = 7
-n_estimators = 15
+max_depth = 5
+n_estimators = 10
 
 mlflow.set_experiment("experiment1")
 
@@ -44,11 +44,5 @@ with mlflow.start_run():
   
   mlflow.log_artifact("confusion_matrix.png")
   mlflow.log_artifact(__file__)
-  
-  # tags
-  mlflow.set_tags({"author":"Abhisek","project":"Wine Classification"})
-  
-  # log the model
-  mlflow.sklearn.log_model(rf, "RandomForest model")
   
   print(f"Accuracy: {accuracy}")

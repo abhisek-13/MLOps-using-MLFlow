@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/137549128759559315/483e135fc784406fbdc0658a0d1b9391/artifacts
+end_time: 1747549102638
+entry_point_name: ''
+experiment_id: '137549128759559315'
+lifecycle_stage: active
+run_id: 483e135fc784406fbdc0658a0d1b9391
+run_name: fun-wolf-71
+run_uuid: 483e135fc784406fbdc0658a0d1b9391
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1747549102217
+status: 4
+tags: []
+user_id: abhis
